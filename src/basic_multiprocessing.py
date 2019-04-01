@@ -13,7 +13,7 @@ def create_folder_if_not_exist(folder):
                 print('Error: ', ex)
 
 
-# 多进程手机每个进程返回的结果，使用—_getvalue()方法转为普通dict
+# 多进程手机每个进程返回的结果，使用_getvalue()方法转为普通dict
 manager = multiprocessing.Manager()
 res = manager.dict()
 with open('/path/to/xxx.json', 'w') as f:
