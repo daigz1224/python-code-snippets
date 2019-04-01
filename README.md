@@ -4,4 +4,3 @@
 ## List of code snippets
 
 - basic_multiprocessing.py
-- advanced_multiprocessing.py
